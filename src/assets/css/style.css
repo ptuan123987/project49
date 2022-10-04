@@ -1,0 +1,91 @@
+/* reset css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.6;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.service {
+    margin: 30px auto;
+    background-color: rgb(247, 246, 246);
+    width: 1000px;
+    height: 550px;
+}
+
+.service .head-section {
+    background-color: #01bacf;
+    padding: 64px 0 91px;
+    border-radius: 6px;
+}
+
+.service .head-section h2 {
+    color: #fff;
+    font-size: 33px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.service .item-list {
+    position: relative;
+    top: -40px;
+}
+
+.service .item-list li {
+    background-color: #fff;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    border-radius: 6px;
+    border: 1px solid rgb(225, 214, 214);
+    box-shadow: 0 0 10px rgba(255, 255, 255, );
+    padding: 20px;
+}
+
+.service .item-list li:first-child {
+    margin-left: 20px;
+}
+
+.service .item-list li:last-child {
+    margin-right: 0;
+}
+
+.service .item-list li .icon {
+    font-size: 40px;
+    color: rgb(194, 216, 46);
+}
+
+.service .item-list li h3 {
+    padding: 16px 0;
+}
+
+.service .item-list li .text {
+    color: rgb(157, 166, 173);
+    line-height: 1.8;
+}
